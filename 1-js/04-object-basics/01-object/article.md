@@ -290,7 +290,7 @@ Studieremo più nel dettaglio `__proto__` nel [capitolo](info:prototype-inherita
 
 ## Controllo di esistenza, operatore "in"
 
-Un'importante caratteristica degli oggetti, in Javascript, è che è possibile accedere a una qualsiasi proprietà. Non ci sarà alcun errore se la proprietà non esiste! 
+Un'importante caratteristica degli oggetti, in Javascript, è che è possibile accedere a una qualsiasi proprietà. Non ci sarà alcun errore se la proprietà non esiste!
 
 L'accesso ad una variabile non esistente ritornerà `undefined`. Possiamo quindi facilmente verificare se una properietà esiste:
 
@@ -348,7 +348,7 @@ Nel codice sopra, tecnicamente, la proprietà `obj.test` esiste. Quindi l'operat
 Situazioni come questa capitano raramente, perché solitamente non si assegna `undefined`. Si usa più comunemente `null` per valori "sconosciuti" o "vuoti". Quindi l'operatore `in` è più un ospite "esotico" nel codice.
 
 
-## Il ciclo "for..in" 
+## Il ciclo "for..in"
 
 Per attraversare tutte le chiavi di un oggetto, esiste una speciale forma di ciclo: `for..in`. Questo è completamente diverso da `for(;;)`.
 
@@ -384,7 +384,7 @@ Inoltre possiamo utilizzare qualsiasi altra variabile al posto di `key`. Ad esem
 
 ### Ordinato come un oggetto
 
-Gli oggetti sono ordinati? In altre parole, se iteriamo un oggetto, otterremo le sue proprietà nello stesso ordine in cui le abbiamo aggiunte? 
+Gli oggetti sono ordinati? In altre parole, se iteriamo un oggetto, otterremo le sue proprietà nello stesso ordine in cui le abbiamo aggiunte?
 
 Una risposta breve è: "sono ordinati in modo speciale": le proprietà che hanno numeri interi come chiavi vengono ordinate, le altre appaiono seguendo l'ordine di creazione. Seguiranno maggiori dettagli.
 
@@ -406,7 +406,7 @@ for (let code in codes) {
 */!*
 ```
 
-L'oggetto può essere utilizzato per suggerire una lista di opzioni all'utente. Se stiamo sviluppando un sito dedicato al pubblico tedesco propbabilmente vorrano vedersi apparire come primo valore `49`.
+L'oggetto può essere utilizzato per suggerire una lista di opzioni all'utente. Se stiamo sviluppando un sito dedicato al pubblico tedesco probabilmente vorrano vedersi apparire come primo valore `49`.
 
 Se proviamo ad eseguire il codice, vedremo un risultato totalmente inaspettato:
 
